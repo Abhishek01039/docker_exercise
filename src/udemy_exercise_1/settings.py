@@ -25,7 +25,7 @@ SECRET_KEY = '&p$n9(y4c74c=68s2_7w4*!vd_@h77bc3+2i8ta$-k1%xm8oe6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ip172-18-0-17-bqbv1qlim9m000f54p70-8000.direct.labs.play-with-docker.com']
 
 
 # Application definition
