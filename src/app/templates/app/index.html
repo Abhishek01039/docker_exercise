@@ -1,0 +1,16 @@
+<html>
+<h2>Hello</h2>
+<table border="2">
+	<th>Name</th>
+	<th>Email</th>
+	<th>Salary</th>
+	<tr>
+	{% for i in per %}
+    	<td>{{i.name}}</td>
+    	<td>{{i.email}}</td>
+    	<td>{{i.salary}}</td>
+	</tr>
+    {% endfor %}
+
+</table>
+</html>

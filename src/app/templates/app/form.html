@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form method="post">
+	{% csrf_token %}
+	Enter Name:
+		{{dat.name}}
+		{{dat.name.errors}}
+		<br>
+	Enter Email:
+		{{dat.email}}
+		{{dat.email.errors}}
+	Enter Salary:
+		{{dat.salary}}
+		{{dat.salary.errors}}
+<br>
+<br>
+
+	<input type="submit" name="submit" value="submit">
+	</form>
+</body>
+</html>
